@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.copy{
+  background-color: white;
+  padding: 20px; 
+  position: absolute;
+  bottom: 0;
+  border-radius: 1.5px;
+  width: 100%
+}
+
+
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(119, 117, 117, 0.3);
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: rgba(148, 144, 144, 0.527);
+  padding: 20px;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  transition-duration: .10s;
+  border: 1px solid #f0f0f08c;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-control input:hover {
+  background: rgba(60, 106, 158, 0.884);
+  border-radius: 20px;
+  border: 1px solid #4c80bbd3;
+}
+
+.form-control i {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button {
+  transition-duration: .10s;
+  background-color: #ff0000ce;
+  border: 2px solid #ff0000de;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button:hover{
+  background: #e24e3eda;
+  border-radius: 20px;
+}
+
+/* Error and Success */
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2021/02/matematicas-2226745.jpg?tf=3840x");
+  background-size: cover;
+}
+
+canvas {
+  display: block;
+}
+
+
+
+
